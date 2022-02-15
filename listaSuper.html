@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Una lista de que cosas comprar"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Soy una lista del Super</title>
+</head>
+<body>
+    <header><b> Soy una lista del super! </b></header>
+    <main>
+        <section>
+            <fieldset> 
+                <legend><b> Listado de productos a comprar</b></legend> 
+            <ul>
+                <li>Frutas</li>
+                <ol>
+                    <li>
+                        <a href="https://www.pequerecetas.com/receta/manzana-18-recetas/">Manzana</a>
+                        <figure>
+                        <img src="../img/manzanas.jpeg" alt="Manzanas sabrosas" width="100">
+                        <figcaption>Que cuelga de la ramita</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://www.directoalpaladar.com/recetario/aprovechar-platanos-maduros-recetas-bizcochos-tartas-helados">Plátanos</a>
+                        <figure>
+                            <img src="../img/platanos.jpeg" alt="Plátanos saboros" width="100">
+                            <figcaption>Cómete un plátano</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+                <li>Carnes</li>
+                <ol>
+                    <li>
+                        <a href="https://www.cocinacaserayfacil.net/recetas-con-pollo/">Pollo</a>
+                        <figure>
+                            <img src="../img/pollo.jpeg" alt="Muéveme el pollo, por favor!" width="100">
+                            <figcaption>Muéveme el pollo</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://www.cocinafacil.com.mx/recetas/recetas-de-carne-molida/">Carne molida</a>
+                        <figure>
+                            <img src="../img/carne molida.jpeg" alt="Carne molida" width="100">
+                            <figcaption>Bien molida porfis</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+                <li>Verduras</li>
+                <ol>
+                    <li>
+                        <a href="https://www.directoalpaladar.com/directo-al-paladar/11-recetas-limon-irresistibles-todos-tiempos">Limón</a>
+                        <figure>
+                            <img src="../img/limon.jpeg" alt="Limon" width="100">
+                            <figcaption>Li-mon chu-pao</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://www.directoalpaladar.com/ingredientes-y-alimentos/nuestras-mejores-47-recetas-zanahoria">Zanahoria</a>
+                        <figure>
+                            <img src="../img/zanahoria.jpeg" alt="zanahoria" width="100">
+                            <figcaption>Qué hay de nuevo viejo?</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </ul>
+            <figure>
+            <video controls preload="auto" width="400" height="225">
+                <source src="https://www.youtube.com/watch?v=WQ3qVTKFLhU">
+            </video>
+            <figcaption><ul> Video explicativo de cómo hacer compras </ul></figcaption>
+            </figure>
+            </fieldset>
+        </section><br>
+
+        <section>
+            <fieldset>
+                <legend><b>Llena el formulario para ser voluntario de hacer las compras</b></legend><br> 
+                <form action="">
+                    <label for="">Nombre del responsable:
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre del responsable">
+                    </label><br><br>
+                    <label for=""> Fecha de la compra:
+                        <input type="date" id="fecha" name="fecha">
+                    </label><br>
+                    <input type="submit" value="Simón yo voy" id="enviar">
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend><b>Formulario especifico de compra</b></legend>
+                <form action="">
+                    <label for="">Horario de compra:
+                        <input type="time" id="hora" name="hora">
+                    </label><br>
+                    <label> Semana de la compra:
+                        <input type="week" id="week" name="week">
+                    </label><br>
+                    <label for=""> Mes de la compra:
+                        <input type="month" id="mes" name="mes">
+                    </label><br>
+                    <input type="submit" value="Yo haré las compras" id="enviar">
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend><b>Formulario general de compra</b></legend>
+                <form action="">
+                    <label for="">Selecciona una fecha y hora
+                        <input type="datetime-local" id="calendario" name="calendario">
+                    </label>
+                    <input type="submit" value="Enviar generalmente" id="enviar">
+                </form> 
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend><b>Formulario con autocompletado</b></legend>
+                <form action="">
+                    <label for="">Cómo te llamas?
+                        <input type="text" id="nombre" autocomplete="name" required placeholder="Tu nombre aquí">
+                    </label>
+                    <label for="">Cúal es tu email?
+                        <input type="email" id="email" autocomplete="email" required placeholder="Tu email aquí">
+                    </label>
+                    <input type="submit" value="Autocompletame ésta!" id="enviar">
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Escoge un país al que irás a comprar(usando tag select)</legend>
+                <select name="pais" id="">
+                    <option value="Russia">Russia</option>
+                    <option value="USA">USA</option>
+                    <option value="México">México</option>
+                    <option value="Colombia">Colombia</option><br>
+                </select>
+                <input type="submit" value="Aquí iré a comprar" id="enviar">
+            </fieldset>
+            <fieldset>
+                <legend>Escribe el nombre del país al que iras a comprar(usando tag datalist)</legend>
+                <input list="paises" id="lista-paises">
+                <datalist id="paises">
+                    <option value="Russia"></option>
+                    <option value="USA"></option>
+                    <option value="México"></option>
+                    <option value="Colombia"></option>
+                </datalist>
+                <input type="submit" value="Aquí iré de compras" id="">
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <br>
+        <quote>Creado con mucha dedicacion a prueba y error por MAYA (it's my name's initials backwards)</quote>
+    </footer>
+</body>
+</html>
